@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6
 .nav.navbar-nav 
 {
     /* padding: 0px 20px; */
-    margin-bottom: 0px;
+    margin-bottom: -50px;
 }
 .navbar-default
 {
@@ -181,7 +181,7 @@ li:last-child
 }
 .navbar-fixed-top .navbar-collapse
 {
-    /* max-height: 415px; */
+    max-height: 415px;
 }
 .container-fluid 
 {
@@ -1288,7 +1288,7 @@ li.socials-icons
     {
         display: block!important;
         height: auto!important;
-         /* padding: 10px 0px;  */
+         padding: 10px 0px; 
         overflow: visible!important;
     }
    
@@ -1298,7 +1298,7 @@ li.socials-icons
 @media (min-width: 1200px){
     .nav.navbar-nav 
     {
-        /* padding: 0px 20px; */
+        padding: 0px 20px;
         margin-bottom: 0px;
     }
     
@@ -1306,7 +1306,7 @@ li.socials-icons
 
 @media (max-width: 991px){
     .slider-inner-text {
-        margin: 162px 0px;
+        margin-bottom: 30px;
     }
 }
 
