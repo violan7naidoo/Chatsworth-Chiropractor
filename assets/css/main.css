@@ -82,7 +82,7 @@ border: 1px solid #ddd;
 
 p
 {
-    font-family: 'Cormorant Garamond', sans-serif;
+    font-family: Roboto, sans-serif;
     word-spacing: 3px;
     font-size: 17px;
 }
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6
 /* ----------------------------------------Header --------------------------------------------*/
 .section-title
 {
-    background: url(../img/6177817673_5ba53ffc2a_z.jpg);
+    background: url(../img/cover\ pic.jpg);
     background-size: cover;
     vertical-align: middle;
     background-position: center;
@@ -133,11 +133,12 @@ h1, h2, h3, h4, h5, h6
 
 .logo
 {
-    font-family: 'Cormorant Garamond', sans-serif;
+    font-family: 'Dosis', sans-serif;
 }
 .nav.navbar-nav 
 {
-    padding: 0px 20px;
+    /* padding: 0px 20px; */
+    margin-bottom: 0px;
 }
 .navbar-default
 {
@@ -146,7 +147,7 @@ h1, h2, h3, h4, h5, h6
 }
 .navbar-default .navbar-header .logo
 {
-    font-size: 20px;
+    font-size: 32px;
     color: #fff;
 }
 .navbar-nav li 
@@ -161,7 +162,7 @@ h1, h2, h3, h4, h5, h6
 }
 .navbar-default .navbar-nav>.active
 {
-    background-color: rgba(5, 207, 252, 0.62);
+    /*background-color: rgba(5, 207, 252, 0.62);*/
     background-color: rgba(76, 214, 245, 0.62);
     border-top: 4px ridge rgb(5, 207, 252);
 }
@@ -180,13 +181,11 @@ li:last-child
 }
 .navbar-fixed-top .navbar-collapse
 {
-    max-height: 500px;
+    /* max-height: 415px; */
 }
 .container-fluid 
 {
-    margin-top: 20px;
-    margin-left: 0px;
-    margin-bottom: 20px;
+    margin-left: 20px;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus
 {
@@ -304,7 +303,7 @@ li:last-child
     line-height: 40px;
     font-weight: normal;
 }  
-.appointment .header a i
+.appointment .header a i 
 {
     width: 32px;
     height: 32px;
@@ -361,7 +360,7 @@ li:last-child
 }
 .slider-1
 {
-    background: url(../img/slider1.jpg);
+    background: url(../img/cover\ pic.jpg);
     width: 100%;
     background-size: cover;
     vertical-align: middle;
@@ -398,10 +397,10 @@ li:last-child
 section.starting-text 
 {
     background-color: rgba(70, 161, 180, 0.82);
-    background: -webkit-linear-gradient(left top, #085A6C , #3E8B90);
+    /*background: -webkit-linear-gradient(left top, #085A6C , #3E8B90);
     background: -o-linear-gradient(bottom right, #085A6C , #3E8B90);
     background: -moz-linear-gradient(bottom right, #085A6C , #3E8B90);
-    background: linear-gradient(to bottom right, #085A6C , #3E8B90);
+    background: linear-gradient(to bottom right, #085A6C , #3E8B90); */
     margin-top: -37px;
 }
 .welcome 
@@ -752,14 +751,23 @@ section.starting-text
     background: url(../img/ridgeviewmedicalclinic.jpg) 50% 0 no-repeat fixed;
     width: 100%;
     background-size: cover;
-    margin-top: 20px;
+    margin-top: 0;
+    margin-bottom: 5px;
     color: white;
 }
+
 .job-wrapper
 {
     background-color: rgba(0, 0, 0, 0.87);
     padding: 100px 0;
 }
+.job-wrapper1
+{
+    background-color: rgba(0, 0, 0, 0.87);
+    padding: 100px 0;
+    
+}
+
 #job h2 
 {
     padding-top: 11px;
@@ -800,7 +808,7 @@ section.starting-text
 /* ========================================= 4. FAQs============================================= */
 .faq-title
 {
-    background: url(../img/6177817673_5ba53ffc2a_z.jpg);
+    background: url(../img/cover\ pic.jpg);
     background-size: cover;
     vertical-align: middle;
     background-position: center;
@@ -1010,7 +1018,7 @@ main p {
 /* ========================================== 6. Gallery========================================== */
 .gallery-title
 {
-    background: url(../img/1_235555_1.jpg);
+    background: url(../img/cover\ pic.jpg);
     background-size: cover;
     vertical-align: middle;
     color: #F0FEFF;
@@ -1120,7 +1128,7 @@ main p {
 /* ========================================= 7. Contact========================================== */
 .contact-title
 {
-    background: url(../img/5501-world-map-1680x1050-digital-art-wallpaper.jpg);
+    background: url(../img/cover\ pic.jpg);
     background-size: cover;
     vertical-align: middle;
     color: #F0FEFF;
@@ -1271,6 +1279,8 @@ li.socials-icons
     color: white;
 }
 
+
+
 /* =========================================Media Query========================================= */
 
 @media (min-width: 1200px){
@@ -1278,19 +1288,20 @@ li.socials-icons
     {
         display: block!important;
         height: auto!important;
-        /* padding: 10px 0px; */
+         /* padding: 10px 0px;  */
         overflow: visible!important;
     }
+   
+    
 }
     
 @media (min-width: 1200px){
-    .navbar-collapse 
+    .nav.navbar-nav 
     {
-        width: auto;
-        border-top: 0;
-        -webkit-box-shadow: none;
-        box-shadow: none;
+        /* padding: 0px 20px; */
+        margin-bottom: 0px;
     }
+    
 }
 
 @media (max-width: 991px){
@@ -1331,9 +1342,14 @@ li.socials-icons
     .welcome {
         padding: 48px 20px;
     }
+   
+    
 }
 @media(max-width: 319px) {
     .heading-slider {
         display: none;
     }
+
+  
+
 }
