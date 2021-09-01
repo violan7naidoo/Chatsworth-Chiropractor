@@ -50,7 +50,7 @@ li a
 .title
 {
     padding: 50px 0px;
-    margin-top: 65px
+    margin-top: 10px
 }
 a 
 {
@@ -137,8 +137,9 @@ h1, h2, h3, h4, h5, h6
 }
 .nav.navbar-nav 
 {
-    /* padding: 0px 20px; */
-    margin-bottom: -50px;
+   padding-top: 0px;
+    margin-bottom: 0px;
+    
 }
 .navbar-default
 {
@@ -153,18 +154,18 @@ h1, h2, h3, h4, h5, h6
 .navbar-nav li 
 {
     /* border-right: 1px solid #54aec2; */
-    padding: 7px 0px;
+    padding: 0px 0px;
 }
 .navbar-default .navbar-nav li a 
 {
-    text-shadow: 1px 1px 0px #20606D;
+    text-shadow: 1px 1px 0px #1eb9d8;
     color: #fff;
 }
 .navbar-default .navbar-nav>.active
 {
     /*background-color: rgba(5, 207, 252, 0.62);*/
-    background-color: rgba(76, 214, 245, 0.62);
-    border-top: 4px ridge rgb(5, 207, 252);
+    background-color: rgba(35, 205, 243, 0.62);
+    /* border-top: 4px ridge rgb(5, 207, 252); */
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus 
 {
@@ -175,17 +176,17 @@ li:last-child
     border-right: transparent;
 }
 .navbar-default .navbar-nav>li:hover, .navbar-default .navbar-nav>li:focus {
-    background-color: #377F8F;
+    background-color: #2fa8c4;
     color: white;
-    border-bottom: 4px ridge rgb(5, 207, 252);
+    border-bottom: 0px ridge rgb(5, 207, 252);
 }
 .navbar-fixed-top .navbar-collapse
 {
-    max-height: 415px;
+    max-height: 200px;
 }
 .container-fluid 
 {
-    margin-left: 20px;
+    margin-left: px;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus
 {
