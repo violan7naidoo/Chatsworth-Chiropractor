@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6
 {
     font-size: 32px;
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 .navbar-nav li 
 {
@@ -361,6 +361,7 @@ li:last-child
 {
     margin: 262px 0px;
     width: 50%
+    
 }
 .slider-1
 {
