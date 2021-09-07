@@ -102,38 +102,40 @@
 
 						<!--  form for job  -->
 
-						<div class="form">
-							<div class="input-group margin-bottom-sm">
-								<span class="input-group-addon">
-									<i class="fa fa-user fa-fw"></i>
-								</span>
-								<input class="form-control" type="text" placeholder="Name">
+						<form name="name" method="POST" data-netlify="true" data-netlify-recaptcha="true"
+							action="">
+								<div class="input-group margin-bottom-sm">
+									<span class="input-group-addon">
+										<i class="fa fa-user fa-fw"></i>
+									</span>
+									<input name="fname" class="form-control" type="text" placeholder="Name">
+								</div>
+								<div class="input-group margin-bottom-sm">
+									<span class="input-group-addon">
+										<i class="fa fa-envelope-o fa-fw"></i>
+									</span>
+									<input  name="email" class="form-control" type="text" placeholder="Email address">
+								</div>
+								<div class="input-group margin-bottom-sm">
+									<span class="input-group-addon">
+										<i class="fa fa-phone fa-fw"></i>
+									</span>
+									<input name="number" class="form-control" type="text" placeholder="Phone Number">
+								</div>
+								<div class="input-group margin-bottom-sm">
+									<span class="input-group-addon">
+										<i class="fa fa-comment fa-fw"></i>
+									</span>
+									<input name="message"class="form-control" type="text" placeholder="Message">
+								</div>
+								<!-- <div class="input-group margin-bottom-sm">
+										<span class="input-group-addon">
+											<i class="fa fa-tags fa-fw"></i>
+										</span>
+										<input type="file" class="btn btn-info form-control">
+									</div> -->
+									<div data-netlify-recaptcha="true"></div>
 							</div>
-							<div class="input-group margin-bottom-sm">
-								<span class="input-group-addon">
-									<i class="fa fa-envelope-o fa-fw"></i>
-								</span>
-								<input class="form-control" type="text" placeholder="Email address">
-							</div>
-							<div class="input-group margin-bottom-sm">
-								<span class="input-group-addon">
-									<i class="fa fa-phone fa-fw"></i>
-								</span>
-								<input class="form-control" type="text" placeholder="Phone Number">
-							</div>
-							<div class="input-group margin-bottom-sm">
-								<span class="input-group-addon">
-									<i class="fa fa-comment fa-fw"></i>
-								</span>
-								<input class="form-control" type="text" placeholder="Message">
-							</div>
-							<!-- <div class="input-group margin-bottom-sm">
-	  								<span class="input-group-addon">
-	  									<i class="fa fa-tags fa-fw"></i>
-	  								</span>
-								 	<input type="file" class="btn btn-info form-control">
-								</div> -->
-						</div>
 						<button type="button" class="btn btn-primary send">Send</button>
 
 						<!-- end of form -->
